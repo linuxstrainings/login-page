@@ -9,7 +9,7 @@
 <body>
     <div style="text-align: center">
         <h1>Admin Login</h1>
-        <h2>With Great responsibility ...</h2>
+        <h2>With great power comes great responsibility!!!</h2>
         <form action="login" method="post">
             <label for="email">Email:</label>
             <input name="email" size="30" />
