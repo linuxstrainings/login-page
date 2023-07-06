@@ -1,0 +1,97 @@
+﻿
+.service-item {
+    border: 1px solid rgba(59, 120, 231, 0.51);
+    background: rgba(231, 236, 255, 0.27); /*rgba(238, 238, 238, 0.11);*/
+    font-size: 13px;
+}
+
+    .service-item > p > img {
+        padding-top: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+.service-title {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    text-transform: uppercase;
+    /*margin-bottom: 5px;*/
+    display: block;
+    font-weight: 700;
+    padding:10px
+    /*font-family: var(--title-font);*/
+}
+
+.service-icon2 {
+    /*border: 3px solid transparent;*/
+    color: #3B78E7;
+    /*border-radius: 50%;*/
+    display: inline-block;
+    /*  height: 56px;
+    width: 85px;*/
+    padding: 5px;
+    line-height: 70px;
+    -webkit-transform: rotate(47deg);
+    -moz-transform: rotate(47deg);
+    -ms-transform: rotate(47deg);
+    -o-transform: rotate(47deg);
+    transform: rotate(47deg);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.service-item:hover .service-icon2 {
+    border: 3px solid #3B78E7;
+    margin-bottom: 20px;
+    color: #3B78E7;
+    background-color: #ffffff;
+}
+
+.service-item:hover {
+    background: rgba(0, 26, 113, 0.95);
+}
+
+    .service-item:hover p {
+        /*background:  rgba(59, 120, 231, 0.51);*/
+        color: #ffffff;
+    }
+
+    .service-item:hover h4 {
+        color: rgba(255, 255, 255, 0.88);
+    }
+
+.service-icon2 i {
+    -webkit-transform: rotate(-48deg);
+    -moz-transform: rotate(-48deg);
+    -ms-transform: rotate(-48deg);
+    -o-transform: rotate(-48deg);
+    transform: rotate(-48deg);
+}
+/*
+.service-item h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service-item h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}*/
+
+.service-title h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service-title h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
